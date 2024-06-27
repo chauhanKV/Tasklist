@@ -3,10 +3,12 @@ export interface CamundaTask {
   name: String;
   taskDefinitionId: String;
   processName: String;
-  creationDate: String;
-  completionDate: String;
+  creationDate: Date;
+  completionDate: Date;
   assignee: String;
   taskState: String;
+  sortValues: [String];
+  isFirst: true;
   formKey: String;
   formId: String;
   formVersion: String;
@@ -18,5 +20,7 @@ export interface CamundaTask {
   followUpDate: String;
   candidateGroups: String;
   candidateUsers: String;
+  variables: [String];
+  context: String;
   implementation: String;
 }
