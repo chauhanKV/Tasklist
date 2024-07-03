@@ -1,0 +1,25 @@
+EPIC No	EPIC	PBI No	PBI	SubTask No	SubTask	Comments / Questions
+1936036	Home Office Approvals Task List in Core App	1936884	Additional Home Office Approvals Tab for Task List		Get COB UI repo Access and setup to run it locally	
+					Analyze tab creation logic in COB UI app	
+					Analyze authorization flow for home office users and get HO credentials to work in dev env	
+					create tab for home office users	
+					Test tab based on home office users	
+						
+		1936885	Task List based on Camunda Task Integrating with COBBPMIntegrationServices			what is COBBPMIntegrationServices ?
+						
+1936024	AMS Workflow Development in Camunda Platform	1936014	AMS Workflow Analysis and Documentation			
+		1936299	AMS Workflow Data Integrations			
+		1936301	AMS Workflow REST Integrations			
+		1936302	AMS Workflow External Task Implementation			
+		1936304	AMS Workflow Integration with COB Workflow via RJBPMMSG Services			
+						
+1936039	RJBPMRest Platform Services Integration JAR with Camunda	1936292	Start Workflow Method Implementation		Install all required tools and softwares - [ Camunda SAAS ]	JAVA, IntelliJ , Jfrog, POSTMAN
+					Analysis on initialization of parent workflow / how AMS workflow will be triggered ?	need to discuss on how to trigger manually
+					Get repo access to Parent workflow and setup to run it locally	
+					Create Repo and common project structure / module	
+					Analysis on Start workflow API	
+					Implementation of start workflow	
+					Module wise testing	
+		1936915	Complete Task Method Implementation			
+		1936916	Claim Task Method Implementation			
+		1936919	Fetch Task Method Implementation			
