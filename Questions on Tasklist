@@ -1,0 +1,39 @@
+Questions:
+
+Show all the tasks in grid as per COB standard. Keep infinite scrolling provided by AGGrid.
+		1. Build the grid configurable. Users can setup / configurable columns.
+			1. [Question] Do we have any existing Grid with configurable column in RJ?
+			2. [Question] Do we need to persist the grid configuration? 
+			3. [Question] If the above answer is no, based on the understanding from the recording, we need to do the following :
+				1. Research is needed to make grid columns configurable or find similar plugin online.
+				2. Need to get the column list from the db.
+				3. Need to store each user's configuration into the db.
+		2. Generic search - based on the datapoints shown in the grid (similar to process portal) - search any data on the grid.
+			1. [Question] Do we have any existing component with generic search within the grid ?
+			2. [Question] Do we have the possibility of using Elastic search for text based search query on the grid ?
+		3. Make grid component reusable. Example -> landing base grid
+			1. [Suggestion] Load grid based on external configuration file
+		4. Suggestion by Michael on Grid -> Rewrite and move to CDK
+			1. [Question] How to configure CDK component in Micro Frontend within RJ?
+		5. Information :: Michael to work on COB landing upgrade as Tech Debt to integrate reusable grid.
+
+Saved search / search preferences to be seen in dropdown on Tasklist screen above grid. When selected through dropdown, the grid updates automatically. Have possibility to share the search criteria.
+		1. DJ todo item :: DJ to get contact of developer within RJ to check on enterprise service using similar capability of saving search preferences (Used in Wealth management)
+			1. [Question] Do we have any grid in RJ with similar capability? Follow up question on above task for DJ
+		2. Each user can modify and update their preferences and then there are global preferences visible to all users.
+			1. [Question] What parameters/columns are we planning to have search on?
+			2. [Question] How many types of saved searches are we planning to have?
+				1. Is one for the HO user which is only visible to themselves and not shared across the users?
+				2. Is another one for the supervisor who shares the preferences with other users. Like a global search preference?
+			3. [Question] Where are we planning to save these search preferences ?
+		3. Suggestion by Manish :: This is for HO users. Create in centralized location (with key and category )
+		4. DJ todo item ::  check advisor platform for similar capabilities.
+
+Dashboard
+		1. Provide links to go to COB dashboard / AMS dashboard above Tasklist grid.
+		2. Consider using IFRAME to keep the users in the COB app and not let them leave COB app. (temporary solution by Michael)
+			1. [Question] As per the recording, we did not finalize on this approach, is it finalized now?
+		3. Link should be configurable based on logged in users. 
+			1. [Question] Are these links RBAC based ?
+			2. [Question] How are we planning to store and retrieve these links so that it shows based on the role of the user?
+		4. Michael todo item  :: check some of the use cases where users can open and easily let them check the important details at one click (not through deep links)
