@@ -1,0 +1,45 @@
+Sr No	Approach	Human Intervention Processes in IBM BAW (AMS)	Screens	Human Task Name in IBM BAW	Widgets	Sub Widgets	Complexity	Hours	Man Days		Labels		
+1	Camunda Forms	NA	AMS Pending Funding (Task List)	NA	Tasklist Similar to Camunda Design		Medium	18	2.25		1 Day =	8 hours =	1 Man Day
+					Tasklist Details for AMS Pending Funding with Basic AMS properties to show in form		High	30	3.75		Low 	8 hours	1 Man Day
+					Task Processing for AMS Pending Funding (Assign/Unassign/Complete)		Medium	18	2.25		Medium	8*3 = 18	3 Man Days
+						Total		66	8.25				
+													
+2	Angular UI		AMS Dashboard	AMS Dashboard	Advanced Search panel		Medium	18	2.25		High 	8*5 = 30	5 Man Days
+					Grid to show Task List		Medium	18	2.25				
+									0				
+		AMS Pending Funding	AMS Exception Handler	AMS Exception Handler	Error Message Panel		Medium	18	2.25		Camunda Form controls	Controls Available	Controls Not Available 
+					Task Data with assignment buttons		High	30	3.75			TextBox	Grid
+					AMS Task Details	Agreements / Features	Medium	18	2.25			RichTextBox	PDF viewer
+						Notes	Medium	18	2.25				Accordian Panel with tabs
+						Supporting Documents	Medium	18	2.25			Date Picker	
+						Emails	Low	6	0.75				
+					Accounts and Client Information		Medium	18	2.25				
+									0				
+			AMS Pending Funding	AMS Coach	Request Details Header		Low	6	0.75				
+					AMS Task List		Medium	18	2.25				
+					AMS Task Details	Agreements / Features	Medium	18	2.25				
+						Notes	Medium	18	2.25				
+						Supporting Documents	Medium	18	2.25				
+						Emails	Low	6	0.75				
+					Pending funding action button panel		Medium	18	2.25				
+					Model Section		Medium	18	2.25				
+					Accounts and Client Information		Medium	18	2.25				
+									0				
+		AMS Program Supplement Task / AMS Billing Processing Task   / AMS Billing Payment Task / AMS Pending Agreements/Branch Approvals Task	AMS Review	AMS Coach	Same as above								
+				AMS Auto Approve Message Coach	Request Details Header		Low	6	0.75				
+					Message Body and Footer Buttons		Low	6	0.75				
+													
+									0				
+			AMS Supervisior Utility	AMS Supervisior Utility	Supervisior's Advanced Search Panel		Medium	18	2.25				
+					Task Results Grid		Medium	18	2.25				
+									0				
+			AMS Task Details	AMS Task Details	Request Details Header		Low	6	0.75				
+					AMS Task List		Medium	18	2.25				
+					AMS Task Details	Agreements / Features	Medium	18	2.25				
+						Notes	Medium	18	2.25				
+						Supporting Documents	Medium	18	2.25				
+						Emails	Low	6	0.75				
+					Accounts and Client Information		Medium	18	2.25				
+									0				
+		Start AMS Workflow	AMS Trigger UCA	Coach	AMS Trigger Panel with Submit Button		High	30	3.75				
+						Total		480	60				
