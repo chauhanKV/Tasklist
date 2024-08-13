@@ -1,0 +1,41 @@
+ID	Work Item Type	Title	Assigned To	State	Tags
+1936021	Feature	COBBPMIntegration Services For Integration with Workflow Platform	Manish Agrawal <RJF\magrawal>	New	
+1935998	Product Backlog Item	[BPM Re-Design]: Claim Task API Integration	Manish Agrawal <RJF\magrawal>	New	
+1936290	Product Backlog Item	[BPM Re-Design]: Start Workflow API Integration	Manish Agrawal <RJF\magrawal>	Committed	
+1936914	Product Backlog Item	[BPM Re-Design]: Complete Task API Integration	Manish Agrawal <RJF\magrawal>	New	
+1936918	Product Backlog Item	[BPM Re-Design]: Fetch Task API Integration	Manish Agrawal <RJF\magrawal>	Done	
+1936023	Feature	RJBPMDB Services For Integration with Database [SOR]	Manish Agrawal <RJF\magrawal>	New	
+1936012	Product Backlog Item	RJBPMDB Services For Integration with Database	Manish Agrawal <RJF\magrawal>	New	
+1936042	Product Backlog Item	RJBPMREST API to handle Generate Request Id	Manish Agrawal <RJF\magrawal>	New	
+1936024	Feature	AMS Workflow Development in Camunda Platform	Manish Agrawal <RJF\magrawal>	New	
+1936014	Product Backlog Item	[BPM Re-Design]: AMS Workflow Analysis and Documentation	Manish Agrawal <RJF\magrawal>	New	
+1936299	Product Backlog Item	AMS Workflow Data Integration Connector	Manish Agrawal <RJF\magrawal>	New	
+1936301	Product Backlog Item	AMS Workflow REST Integration Connector	Manish Agrawal <RJF\magrawal>	New	
+1936302	Product Backlog Item	AMS Workflow External Task Implementation	Manish Agrawal <RJF\magrawal>	New	
+1936304	Product Backlog Item	AMS Workflow Integration with COB Workflow via RJBPMMSG Services	Manish Agrawal <RJF\magrawal>	New	
+1936900	Product Backlog Item	AMS TASK UI Implementation	Manish Agrawal <RJF\magrawal>	New	
+1958704	Product Backlog Item	AMS Workflow Emails for Failures / Exception	Manish Agrawal <RJF\magrawal>	New	
+1971103	Product Backlog Item	[BPM Re-Design]: AMS Workflow Implementation on Camunda SAAS Dev Cluster	Naman Chopra - IC <RJF\nchopra>	Committed	
+1936036	Feature	Home Office Approvals Task List in Core App	Manish Agrawal <RJF\magrawal>	New	
+1936884	Product Backlog Item	[BPM Re-Design]: Additional Home Office Approvals Tab for Task List	Manish Agrawal <RJF\magrawal>	New	
+1936885	Product Backlog Item	Task List based on Camunda Task Integrating with COBBPMIntegrationServices	Manish Agrawal <RJF\magrawal>	New	
+1939673	Product Backlog Item	Integration of additional features required for Tasklist UI with COBBPMIntegration Services	Manish Agrawal <RJF\magrawal>	New	
+1936039	Feature	RJBPMRest Platform Services Integration JAR with Camunda	Manish Agrawal <RJF\magrawal>	New	
+1936292	Product Backlog Item	[BPM Re-Design]: Start Workflow Method Implementation	Manish Agrawal <RJF\magrawal>	Committed	
+1936915	Product Backlog Item	[BPM Re-Design]: Complete Task Method Implementation	Manish Agrawal <RJF\magrawal>	New	
+1936916	Product Backlog Item	[BPM Re-Design]: Claim Task Method Implementation	Manish Agrawal <RJF\magrawal>	New	
+1936919	Product Backlog Item	[BPM Re-Design]: Fetch Task Method Implementation	Manish Agrawal <RJF\magrawal>	Committed	
+1958702	Feature	RJBPMIntegration Services for REST Integration with Enterprise Services	Prashant Katiyar - IC <RJF\pkatiyar>	New	
+1958703	Product Backlog Item	ESArrangement Get Complete API	Prashant Katiyar - IC <RJF\pkatiyar>	New	
+1958979	Feature	AMS Tasks Processing from New Core App Task List	Manish Agrawal <RJF\magrawal>	New	
+1958949	Product Backlog Item	Claim Task API On Task Opening	Prashant Katiyar - IC <RJF\pkatiyar>	New	
+1958950	Product Backlog Item	Complete Task API On Task Button Actions	Prashant Katiyar - IC <RJF\pkatiyar>	New	
+1958952	Product Backlog Item	AMS Pending Funding Task Implementation	Prashant Katiyar - IC <RJF\pkatiyar>	New	
+1958955	Product Backlog Item	AMS Program Supplement Task Implementation	Prashant Katiyar - IC <RJF\pkatiyar>	New	
+1958956	Product Backlog Item	AMS Billing Processing Task Implementation	Prashant Katiyar - IC <RJF\pkatiyar>	New	
+1958958	Product Backlog Item	AMS Billing Payment Task Implementation	Prashant Katiyar - IC <RJF\pkatiyar>	New	
+1958959	Product Backlog Item	AMS Pending Agreements/Branch Approvals Task Implementation	Prashant Katiyar - IC <RJF\pkatiyar>	New	
+1958960	Product Backlog Item	AMS Task - Account Component Implementation	Prashant Katiyar - IC <RJF\pkatiyar>	New	
+1958962	Product Backlog Item	AMS Task - Party Component Implementation	Prashant Katiyar - IC <RJF\pkatiyar>	New	
+1958964	Product Backlog Item	AMS Task - Task List Component Implementation	Prashant Katiyar - IC <RJF\pkatiyar>	New	
+1958965	Product Backlog Item	AMS Task - Client List Component Implementation	Prashant Katiyar - IC <RJF\pkatiyar>	New	
