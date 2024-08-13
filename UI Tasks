@@ -1,0 +1,81 @@
+Grid Component in CDK :
+	1. Create a grid component in CDK repo by embedding AGGrid library 
+	2. Analyze and Create JSON configuration required to expose from grid component
+	3. Implement code to generate AGGrid based on JSON configuration passed to grid component.
+	4. Integrate grid Component with a component in Landing and test by passing JSON configuration locally.
+		a. Understand how to consume cdk locally with grid component.
+	5. Understand the process to add this grid in CDK
+		a. Is any approval required?
+		b. Coding guidelines to follow to build something in CDK
+		c. Unit testing
+		d. Fix Jenkins build issue if occurs
+
+Portal API Integration to Fetch Tasklist and show in HomeOffice Grid:
+	1. Analyze integration of portal API to fetch the tasklist:
+		a. Analyze the mechanism to call portal service from Client-onboarding-landing
+			i. How API calls are triggered from Client-onboarding-landing. 
+			ii. Understand coding practices followed while triggering API call from UI.
+		b. Analyze fetch API request/response/endpoint url
+			i. Understand endpoint url and how to trigger fetch API using single endpoint url exposed by Portal Service.
+			ii. Understand how to pass request parameter to fetch API endpoint.
+			iii. Understand how to consume the response got from fetch API endpoint. (creating mapping function and extracting UI specific columns and fields to show in the grid component)
+	2. Implement Fetch Tasklist API response with CDK grid component in HomeOffice tab. 
+		a. Place portal API endpoint in environment file.
+		b. Implement portal service API call using common path from env file.
+		c. Create Mapping function to extract columns required to show in the UI.
+		d. Understand if we need to store Tasklist data in the store. [Not required to store]
+		e. Pass data and other configuration to CDK grid consumed in Landing and test the tasklist in the grid
+	3. Implement HomeOffice Task tab count 
+		a. The logic is already present for other tab grids. Need to check when data is sent to the grid does the tabs component recognize the data record count or do I have to implement the data row logic as we will use grid from CDK.
+
+Queues Dropdown / Saved Preferences
+	1. Analyze implementation of Shared queue / Personal Queue [Save Preference]
+		a. Questions:
+			i. Who has the rights to create the preferences?
+			ii. Is there any interface to create the preferences [shared/personal] or do we have to use the same "configure" modal popup for creating the preferences?
+			iii. How can super user share their preferences to normal user? Is there any interface for that ?
+			iv. We will have to store preferences based on following :
+				1) Super user - creates personal preference
+				2) Super user - creates the one they can share with normal users
+				3) Normal user - Stores the one they create for themselves.
+			v. Get preferences based on Role of the user to show in the queue dropdown.
+			vi. Who can edit these preferences ?
+				1) Shared - Super User only
+				2) Personal - super and normal users individually for their on created preferences
+			vii. Where to store these preferences?
+			viii. Once the user logs in - do we have to set a default preference to show the grid response based on that ? Or we show all the data in the grid and keep the queue dropdown unselected, let user select the preferences and see the changes reflecting on the grid.
+		b. Tasks
+			
+	2. Analyze implementation of Configure queue [Editing Saved Preference]
+		a. Questions
+		b. Tasks
+	3. Implement Saved Preferences
+		a. Populate saved Preferences dropdown based on RBAC.
+		b. Show personal and Shared preferences in queue dropdown above the grid in Home Office tab. Implement dropdown from CDK.
+		c. Create UI design for Modal popup and get it approved Or get the UI from UX team.
+		d. Implement Configure button and Modal popup on click of Configure button
+		e. Model Popup changes -> Get dropdown values - Column names, workflow properties, comparison operators to show on the load of modal popup
+		f. Modal Popup Changes -> Implement 
+		g. Implement save mechanism to save the preferences on modal save click
+			i. API is required to save the preference.
+		h. Refresh the Grid on selection of saved preference from dropdown.
+			i. API is required to fetch the column configurations of selected preference.
+		i. Restrict configuration/editing of Shared Preferences
+			i. Normal user can configure their own personal preferences.
+			ii. Super user can configure shared preferences and their personal preferences
+
+Dashboard:
+	1. Implement Utilities link next to worksheet in Client-onboarding-Landing
+		a. Get all the links required to be shown on click of "Go to"
+		b. Implement hyperlinks with dropdown to show the links on the click of "Go to"
+		c. Analyze the modal popup
+			i. Is it already present in CDK or do I have to create one?
+		d. Implement Modal Popup / Consume Modal popup based on above analysis.
+		e. Show the url content inside a modal popup with close button at the top right corner once the url is clicked.
+		f. Test the functionality in Local setup.
+		
+	
+	
+	Create WIKI page
+	2. Upgrade to v17.3.10
+	3. Updating angular code to become remote
